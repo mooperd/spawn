@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/44/trunk/virttool
+END
+manage.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/10/trunk/virttool/manage.py
+END
+LICENCE
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/21/trunk/virttool/LICENCE
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/10/trunk/virttool/__init__.py
+END
+Changelog
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/21/trunk/virttool/Changelog
+END
+settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/15/trunk/virttool/settings.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/10/trunk/virttool/urls.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/21/trunk/virttool/README
+END

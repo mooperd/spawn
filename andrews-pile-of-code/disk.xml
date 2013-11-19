@@ -1,0 +1,16 @@
+<volume>
+  <name>VM004/VM004.vmdk</name>
+  <source>
+  </source>
+  <capacity>10240000000</capacity>
+  <allocation>10240000000</allocation>
+  <target>
+    <path>[datastore1 (1)] VM004/VM004.vmdk</path>
+    <format type='vmdk'/>
+    <permissions>
+      <mode>00</mode>
+      <owner>0</owner>
+      <group>0</group>
+    </permissions>
+  </target>
+</volume>
