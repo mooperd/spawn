@@ -1,0 +1,26 @@
+<domain type='vmware'>
+  <name>boom</name>
+  <uuid>564d79ee-2d37-f46b-d0b8-3caf0c6c8965</uuid>
+  <memory unit='KiB'>2097152</memory>
+  <currentMemory unit='KiB'>2097152</currentMemory>
+  <vcpu>1</vcpu>
+  <os>
+    <type arch='x86_64'>hvm</type>
+  </os>
+  <devices>
+    <disk type='file' device='disk'>
+      <source file='[datastore 10.51.3.59-local] boom/boom.vmdk'/>
+      <target dev='sda' bus='scsi'/>
+      <address type='drive' controller='0' bus='0' unit='0'/>
+    </disk>
+    <controller type='scsi' index='0' model='lsilogic'/>
+    <interface type='bridge'>
+      <mac address='00:00:56:8c:06:20'/>
+      <source bridge='DUT-IN-V552'/>
+      <model type='vmxnet3'/>
+    </interface>
+    <video>
+      <model type='vmvga' vram='4096'/>
+    </video>
+  </devices>
+</domain>
